@@ -14,8 +14,8 @@
 
 1. **リポジトリをクローン**:
     ```bash
-    git clone https://github.com/yourusername/directory-structure-lister.git
-    cd directory-structure-lister
+    git clone https://github.com/neromehiro/list_files
+    cd list_files
     ```
 
 2. **Pythonがインストールされていることを確認**:
