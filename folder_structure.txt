@@ -1,0 +1,156 @@
+aimsales-website/
+│   ├── pnpm-lock.yaml
+│   ├── jsconfig.json
+│   ├── tailwind.config.js
+│   ├── LICENSE
+│   ├── next.config.js
+│   ├── next-env.d.ts
+│   ├── README.md
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── postcss.config.js
+│   ├── types/
+│   │   ├── brand.ts
+│   │   ├── blog.ts
+│   │   ├── testimonial.ts
+│   │   ├── menu.ts
+│   │   ├── feature.ts
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── providers.tsx
+│   │   ├── contact/
+│   │   │   ├── page.tsx
+│   │   ├── signup/
+│   │   │   ├── page.tsx
+│   │   ├── about/
+│   │   │   ├── page.tsx
+│   │   ├── blog/
+│   │   │   ├── page.tsx
+│   │   ├── blog-details/
+│   │   │   ├── page.tsx
+│   │   ├── signin/
+│   │   │   ├── page.tsx
+│   │   ├── error/
+│   │   │   ├── page.tsx
+│   │   ├── blog-sidebar/
+│   │   │   ├── page.tsx
+│   ├── styles/
+│   │   ├── index.css
+│   ├── components/
+│   │   ├── Footer/
+│   │   │   ├── index.tsx
+│   │   ├── Video/
+│   │   │   ├── index.tsx
+│   │   ├── Contact/
+│   │   │   ├── index.tsx
+│   │   │   ├── NewsLatterBox.tsx
+│   │   ├── Testimonials/
+│   │   │   ├── index.tsx
+│   │   │   ├── SingleTestimonial.tsx
+│   │   ├── ScrollToTop/
+│   │   │   ├── index.tsx
+│   │   ├── Brands/
+│   │   │   ├── index.tsx
+│   │   │   ├── brandsData.tsx
+│   │   ├── Features/
+│   │   │   ├── index.tsx
+│   │   │   ├── SingleFeature.tsx
+│   │   │   ├── featuresData.tsx
+│   │   ├── About/
+│   │   │   ├── AboutSectionOne.tsx
+│   │   │   ├── AboutSectionTwo.tsx
+│   │   ├── Blog/
+│   │   │   ├── index.tsx
+│   │   │   ├── SharePost.tsx
+│   │   │   ├── TagButton.tsx
+│   │   │   ├── RelatedPost.tsx
+│   │   │   ├── SingleBlog.tsx
+│   │   │   ├── blogData.tsx
+│   │   ├── Common/
+│   │   │   ├── ScrollUp.tsx
+│   │   │   ├── Breadcrumb.tsx
+│   │   │   ├── SectionTitle.tsx
+│   │   ├── Hero/
+│   │   │   ├── index.tsx
+│   │   ├── Pricing/
+│   │   │   ├── index.tsx
+│   │   │   ├── PricingBox.tsx
+│   │   │   ├── OfferList.tsx
+│   │   ├── Header/
+│   │   │   ├── index.tsx
+│   │   │   ├── menuData.tsx
+│   │   │   ├── ThemeToggler.tsx
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── images/
+│   │   │   ├── 404.svg
+│   │   │   ├── favicon.png
+│   │   │   ├── video/
+│   │   │   │   ├── shape.svg
+│   │   │   │   ├── video.jpg
+│   │   │   ├── testimonials/
+│   │   │   │   ├── auth-02.png
+│   │   │   │   ├── auth-03.png
+│   │   │   │   ├── auth-01.png
+│   │   │   │   ├── author-01.png
+│   │   │   │   ├── author-03.png
+│   │   │   │   ├── author-02.png
+│   │   │   ├── brands/
+│   │   │   │   ├── uideck-light.svg
+│   │   │   │   ├── plainadmin.svg
+│   │   │   │   ├── tailadmin.svg
+│   │   │   │   ├── ayroui.svg
+│   │   │   │   ├── lineicons.svg
+│   │   │   │   ├── tailgrids.svg
+│   │   │   │   ├── ayroui-light.svg
+│   │   │   │   ├── uideck.svg
+│   │   │   │   ├── lineicons-light.svg
+│   │   │   │   ├── graygrids.svg
+│   │   │   │   ├── ecommerce-html.svg
+│   │   │   │   ├── plainadmin-light.svg
+│   │   │   │   ├── tailgrids-light.svg
+│   │   │   ├── about/
+│   │   │   │   ├── about-image-dark.svg
+│   │   │   │   ├── about-image.svg
+│   │   │   │   ├── about-image-2-dark.svg
+│   │   │   │   ├── about-image-2.svg
+│   │   │   ├── blog/
+│   │   │   │   ├── blog-01.jpg
+│   │   │   │   ├── blog-details-02.jpg
+│   │   │   │   ├── post-01.jpg
+│   │   │   │   ├── post-03.jpg
+│   │   │   │   ├── blog-02.jpg
+│   │   │   │   ├── blog-details-01.jpg
+│   │   │   │   ├── post-02.jpg
+│   │   │   │   ├── blog-03.jpg
+│   │   │   │   ├── author-01.png
+│   │   │   │   ├── author-03.png
+│   │   │   │   ├── author-02.png
+│   │   │   ├── logo/
+│   │   │   │   ├── logo.svg
+│   │   │   │   ├── logo-2.svg
+│   │   │   ├── hero/
+│   │   │   │   ├── shape-02.svg
+│   │   │   │   ├── shape-01.svg
+│   ├── my-next-app/
+│   │   ├── pnpm-lock.yaml
+│   │   ├── postcss.config.mjs
+│   │   ├── next.config.mjs
+│   │   ├── next-env.d.ts
+│   │   ├── README.md
+│   │   ├── tailwind.config.ts
+│   │   ├── .gitignore
+│   │   ├── package.json
+│   │   ├── tsconfig.json
+│   │   ├── .eslintrc.json
+│   │   ├── app/
+│   │   │   ├── favicon.ico
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   ├── globals.css
+│   │   ├── public/
+│   │   │   ├── vercel.svg
+│   │   │   ├── next.svg
