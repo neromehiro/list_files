@@ -2,7 +2,7 @@ import os
 
 # スキップするディレクトリ名のリスト
 SKIP_DIRS = {
-    'node_modules', '.next', '.git', '.idea', '.vscode', '__pycache__', 'dist', 'build', 'coverage', 'logs'
+    'node_modules', '.next', '.git', '.idea', '.vscode', '__pycache__', 'dist', 'wandb' 'models', 'build', 'coverage', 'logs','venv'
 }
 
 def list_files_recursive(folder_path, output_file):
